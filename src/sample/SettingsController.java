@@ -2,8 +2,9 @@ package sample;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
+import javafx.scene.control.CheckBox;
 
-public class Controller {
+public class SettingsController {
 
     @FXML
     private Button SettingsButton;
@@ -13,13 +14,14 @@ public class Controller {
 
     @FXML
     private Button MenuButton;
+
     @FXML
-    void initialize()
-    {
-        SettingsButton.setOnAction(event->
-        {
-            System.out.println("Шо-то ты нажал");
-        });
-    }
+    private CheckBox CheckBox1;
+
+    @FXML
+    private CheckBox CheckBox2;
+
+    @FXML
+    private CheckBox CheckBox3;
 
 }
