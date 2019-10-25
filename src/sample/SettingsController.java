@@ -1,8 +1,16 @@
 package sample;
 
+import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Node;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.CheckBox;
+import javafx.stage.Stage;
+
+import java.io.IOException;
 
 public class SettingsController {
 
@@ -24,4 +32,16 @@ public class SettingsController {
     @FXML
     private CheckBox CheckBox3;
 
+    public void onClickMethod(ActionEvent actionEvent) throws IOException {
+        FXMLLoader load = new FXMLLoader();
+        load.setLocation(getClass().getResource("/sample/Menu.fxml"));
+        load.load();
+        Parent root = load.getRoot();
+        Stage stage = new Stage();
+        stage.setScene(new Scene(root));
+        stage.show();
+        ((Node)(actionEvent.getSource())).getScene().getWindow().hide();
+
+
+    }
 }

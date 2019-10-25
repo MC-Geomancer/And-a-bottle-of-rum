@@ -9,7 +9,7 @@
     <children>
         <AnchorPane layoutX="20.0" prefHeight="74.0" prefWidth="386.0" style="-fx-background-color: #85bbe0; -fx-border-color: #000000;" AnchorPane.topAnchor="0.0">
             <children>
-                <Button fx:id="SettingsButton" layoutX="268.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="104.0" style="-fx-background-color: #e48821; -fx-border-color: #000000;" text="Settings" textAlignment="CENTER">
+                <Button fx:id="SettingsButton" layoutX="268.0" mnemonicParsing="false" onAction="#onClickMethod" prefHeight="60.0" prefWidth="104.0" style="-fx-background-color: #e48821; -fx-border-color: #000000;" text="Settings" textAlignment="CENTER">
                     <font>
                         <Font size="21.0" />
                     </font>

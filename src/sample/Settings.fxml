@@ -20,7 +20,7 @@
                         <Font size="24.0" />
                     </font>
                 </Button>
-                <Button fx:id="MenuButton" layoutX="14.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="104.0" style="-fx-background-color: #e48821; -fx-border-color: #000000;" text="Menu">
+                <Button fx:id="MenuButton" layoutX="14.0" mnemonicParsing="false" onAction="#onClickMethod" prefHeight="60.0" prefWidth="104.0" style="-fx-background-color: #e48821; -fx-border-color: #000000;" text="Menu">
                     <font>
                         <Font size="24.0" />
                     </font>

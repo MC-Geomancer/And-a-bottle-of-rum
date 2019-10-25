@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="daebc3dc-5d57-47cb-b66b-d8c6311ea548" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/sample/Menu.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/And-a-bottle-of-rum/sample/sample.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/sample.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/And-a-bottle-of-rum/sample/Menu.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/And-a-bottle-of-rum/sample/Menu.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/And-a-bottle-of-rum/sample/Settings.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/And-a-bottle-of-rum/sample/Settings.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/Menu.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Menu.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/Settings.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Settings.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/SettingsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/SettingsController.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,12 +27,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="707" />
-    <option name="y" value="151" />
-    <option name="width" value="974" />
-    <option name="height" value="1047" />
   </component>
   <component name="ProjectId" id="1SeKuqbm6NFZ3NfEHKGVZx7OyYH" />
   <component name="ProjectLevelVcsManager">
@@ -108,7 +104,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

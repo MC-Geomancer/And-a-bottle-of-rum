@@ -1,7 +1,9 @@
 package sample;
 
+import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
+import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
@@ -19,7 +21,10 @@ public class Controller {
 
     @FXML
     private Button MenuButton;
-    @FXML
+
+
+
+   /*@FXML
     void initialize()
     {
         SettingsButton.setOnAction(event->
@@ -38,6 +43,17 @@ public class Controller {
             stage.showAndWait();
 
         });
-    }
+    }*/
 
+    public void onClickMethod(ActionEvent actionEvent) throws IOException {
+        FXMLLoader loader = new FXMLLoader();
+        loader.setLocation(getClass().getResource("/sample/Settings.fxml"));
+        loader.load();
+        Parent root = loader.getRoot();
+        Stage stage = new Stage();
+        stage.setScene(new Scene(root));
+        stage.show();
+        ((Node)(actionEvent.getSource())).getScene().getWindow().hide();
+
+    }
 }
