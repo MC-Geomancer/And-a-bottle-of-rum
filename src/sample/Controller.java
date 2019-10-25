@@ -7,6 +7,7 @@ import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
+import javafx.scene.input.MouseDragEvent;
 import javafx.stage.Stage;
 
 import java.io.IOException;
@@ -55,5 +56,10 @@ public class Controller {
         stage.show();
         ((Node)(actionEvent.getSource())).getScene().getWindow().hide();
 
+    }
+
+    public void onDragMethod(MouseDragEvent mouseDragEvent)
+    {
+        
     }
 }
