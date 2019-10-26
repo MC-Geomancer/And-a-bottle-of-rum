@@ -60,6 +60,6 @@ public class Controller {
 
     public void onDragMethod(MouseDragEvent mouseDragEvent)
     {
-        
+        System.out.println("u");
     }
 }
