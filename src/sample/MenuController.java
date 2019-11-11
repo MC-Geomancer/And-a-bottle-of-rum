@@ -9,10 +9,11 @@ import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.input.MouseDragEvent;
 import javafx.stage.Stage;
+import java.util.EventObject;
 
 import java.io.IOException;
 
-public class Controller {
+public class MenuController {
 
     @FXML
     private Button SettingsButton;
@@ -45,9 +46,9 @@ public class Controller {
 
         });
     }*/
-
-    public void onClickMethod(ActionEvent actionEvent) throws IOException {
-        FXMLLoader loader = new FXMLLoader();
+    
+   public void onClickMethodSettings(ActionEvent actionEvent) throws IOException {
+		FXMLLoader loader = new FXMLLoader();
         loader.setLocation(getClass().getResource("/sample/Settings.fxml"));
         loader.load();
         Parent root = loader.getRoot();
@@ -55,11 +56,26 @@ public class Controller {
         stage.setScene(new Scene(root));
         stage.show();
         ((Node)(actionEvent.getSource())).getScene().getWindow().hide();
-
-    }
-
-    public void onDragMethod(MouseDragEvent mouseDragEvent)
-    {
-        System.out.println("u");
+     
+	}
+    public void onClickMethodPlay(ActionEvent actionEvent) throws IOException {
+    	FXMLLoader loader = new FXMLLoader();
+        loader.setLocation(getClass().getResource("/sample/Play.fxml"));
+        loader.load();
+        Parent root = loader.getRoot();
+        Stage stage = new Stage();
+        stage.setScene(new Scene(root));
+        stage.show();
+        ((Node)(actionEvent.getSource())).getScene().getWindow().hide();
+	
     }
 }
+
+
+
+
+
+
+
+
+

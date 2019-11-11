@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+
+<AnchorPane prefHeight="737.0" prefWidth="426.0" style="-fx-background-color: #434d75; -fx-border-color: #000000;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#434d75" height="200.0" layoutX="113.0" layoutY="205.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+      <AnchorPane layoutX="20.0" prefHeight="86.0" prefWidth="386.0" style="-fx-background-color: #85bbe0; -fx-background-radius: 10;" />
+      <ImageView fitHeight="200.0" fitWidth="200.0" layoutX="113.0" layoutY="205.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../steering-wheel.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
