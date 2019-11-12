@@ -5,37 +5,37 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="737.0" prefWidth="426.0" style="-fx-background-color: #434d75; -fx-border-color: #000000;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.MenuController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="737.0" prefWidth="426.0" style="-fx-background-color: linear-gradient(to bottom, #434d75, #717dad); -fx-border-color: #000000;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.MenuController">
     <children>
-        <AnchorPane layoutX="20.0" prefHeight="74.0" prefWidth="386.0" style="-fx-background-color: #85bbe0; -fx-border-color: #000000;" AnchorPane.topAnchor="0.0">
+        <AnchorPane layoutX="20.0" prefHeight="86.0" prefWidth="386.0" style="-fx-background-color: #85bbe0; -fx-background-radius: 10;" AnchorPane.topAnchor="0.0">
             <children>
-                <Button fx:id="SettingsButton" layoutX="268.0" mnemonicParsing="false" onAction="#onClickMethod" prefHeight="60.0" prefWidth="104.0" style="-fx-background-color: #e48821; -fx-border-color: #000000;" text="Settings" textAlignment="CENTER">
+                <Button fx:id="SettingsButton" layoutX="262.0" mnemonicParsing="false" onAction="#onClickMethodSettings" prefHeight="67.0" prefWidth="110.0" style="-fx-background-color: #e48821; -fx-border-color: #000000;" text="Settings" textAlignment="CENTER">
                     <font>
-                        <Font size="21.0" />
+                        <Font name="American Typewriter" size="20.0" />
                     </font>
                 </Button>
-                <Button fx:id="PlayButton" layoutX="141.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="104.0" style="-fx-background-color: #e48821; -fx-border-color: #000000;" text="Play">
+                <Button fx:id="PlayButton" layoutX="138.0" mnemonicParsing="false" onAction="#onClickMethodPlay" prefHeight="67.0" prefWidth="110.0" style="-fx-background-color: #e48821; -fx-border-color: #000000;" text="Play" textAlignment="CENTER">
                     <font>
-                        <Font size="24.0" />
+                        <Font name="American Typewriter" size="20.0" />
                     </font>
                 </Button>
-                <Button fx:id="MenuButton" layoutX="14.0" mnemonicParsing="false" prefHeight="67.0" prefWidth="113.0" style="-fx-background-color: #bd7c32; -fx-border-color: #000000;" text="Menu">
+                <Button fx:id="MenuButton" layoutX="14.0" mnemonicParsing="false" prefHeight="67.0" prefWidth="110.0" style="-fx-background-color: #bd7c32; -fx-border-color: #000000;" text="Menu" textAlignment="CENTER">
                     <font>
-                        <Font size="24.0" />
+                        <Font name="American Typewriter Semibold" size="20.0" />
                     </font>
                 </Button>
             </children>
         </AnchorPane>
-        <AnchorPane layoutX="20.0" layoutY="110.0" prefHeight="613.0" prefWidth="386.0" style="-fx-background-color: #85bbe0; -fx-border-color: #000000;">
+        <AnchorPane layoutX="20.0" layoutY="116.0" prefHeight="591.0" prefWidth="386.0" style="-fx-background-color: #85bbe0; -fx-background-radius: 10;">
             <children>
-                <Text layoutX="151.0" layoutY="80.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" wrappingWidth="82.0">
+                <Text layoutX="151.0" layoutY="109.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" textAlignment="JUSTIFY" wrappingWidth="82.0">
                     <font>
                         <Font name="American Typewriter" size="36.0" />
                     </font>
                 </Text>
-                <Text layoutX="54.0" layoutY="187.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lorem ipsum dolor sit ameht, consectetur adipisicing elit. Illum error laboriosam, eaque cumque dolor, doloribusLorem ipsum dolor sit ameht, consectetur adipisicing elit. Illum error laboriosam, eaque cumque dolor, doloribus" textAlignment="JUSTIFY" wrappingWidth="284.0">
+                <Text layoutX="50.0" layoutY="203.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lorem ipsum dolor sit ameht, consectetur adipisicing elit. Illum error laboriosam, eaque cumque dolor, doloribusLorem ipsum dolor sit ameht, consectetur adipisicing elit. Illum error laboriosam, eaque cumque dolor, doloribus" textAlignment="JUSTIFY" wrappingWidth="284.0">
                     <font>
-                        <Font size="24.0" />
+                        <Font name="American Typewriter" size="24.0" />
                     </font>
                 </Text>
             </children>
