@@ -10,7 +10,7 @@
 
 <AnchorPane prefHeight="737.0" prefWidth="426.0" style="-fx-background-color: #434d75; -fx-border-color: #000000;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.PlayController">
    <children>
-      <AnchorPane layoutX="20.0" prefHeight="86.0" prefWidth="386.0" style="-fx-background-color: #85bbe0; -fx-background-radius: 10;">
+     <AnchorPane layoutX="20.0" prefHeight="86.0" prefWidth="386.0" style="-fx-background-color: #85bbe0; -fx-background-radius: 10;">
          <children>
             <ImageView fitHeight="60.0" fitWidth="60.0" layoutX="29.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
                <image>
@@ -42,16 +42,16 @@
                <children>
                   <ImageView fx:id="Image" fitHeight="250.0" fitWidth="250.0" layoutX="43.0" layoutY="77.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@Images/carps.png" />
+                        <Image url="@Images/map.png" />
                      </image></ImageView>
-                  <Text layoutX="75.0" layoutY="44.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Fortune" textAlignment="CENTER" wrappingWidth="186.0">
+                  <Text layoutX="54.0" layoutY="44.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Old peace of paper" textAlignment="CENTER" wrappingWidth="229.0">
                      <font>
                         <Font name="American Typewriter" size="24.0" />
                      </font>
                   </Text>
-                  <Text layoutX="36.0" layoutY="362.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Wanna test your luck?" textAlignment="CENTER" wrappingWidth="265.0">
+                  <Text layoutX="29.0" layoutY="362.0" strokeType="OUTSIDE" strokeWidth="0.0" text="We have found an old piece ofpaper with some spot-on it" textAlignment="CENTER" wrappingWidth="279.0">
                      <font>
-                        <Font name="American Typewriter" size="22.0" />
+                        <Font name="American Typewriter" size="20.0" />
                      </font>
                   </Text>
                </children>

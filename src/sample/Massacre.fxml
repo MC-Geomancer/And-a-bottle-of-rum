@@ -42,14 +42,14 @@
                <children>
                   <ImageView fx:id="Image" fitHeight="250.0" fitWidth="250.0" layoutX="43.0" layoutY="77.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@Images/carps.png" />
+                        <Image url="@Images/stab-wounds.png" />
                      </image></ImageView>
-                  <Text layoutX="75.0" layoutY="44.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Fortune" textAlignment="CENTER" wrappingWidth="186.0">
+                  <Text layoutY="46.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Massacre of St. Bartholomew" textAlignment="CENTER" wrappingWidth="346.99999380111694">
                      <font>
-                        <Font name="American Typewriter" size="24.0" />
+                        <Font name="American Typewriter" size="20.0" />
                      </font>
                   </Text>
-                  <Text layoutX="36.0" layoutY="362.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Wanna test your luck?" textAlignment="CENTER" wrappingWidth="265.0">
+                  <Text layoutX="18.0" layoutY="363.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Your people want to murder" textAlignment="CENTER" wrappingWidth="301.0">
                      <font>
                         <Font name="American Typewriter" size="22.0" />
                      </font>

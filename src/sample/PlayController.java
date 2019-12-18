@@ -36,13 +36,15 @@ public class PlayController {
 	@FXML
     private Button ApplyButton;
 	
-	private String[] Files = {"/sample/Bing.fxml", "/sample/Old peace of paper.fxml", "/sample/Repairs.fxml", "/sample/Fortune.fxml"};
+	private String[] Files = {"/sample/Bing.fxml", "/sample/Map.fxml",
+			"/sample/Repairs.fxml", "/sample/Fortune.fxml", "/sample/Messacre.fxml",
+			"/sample/Shopping.fxml", "/sample/Ideals.fxml"};
 	
 	
 	
 	public void ClickOnDenyButton(ActionEvent actionEvent) throws IOException {
 		FXMLLoader loader = new FXMLLoader();
-		int rand_value = (int) (Math.random()*4);
+		int rand_value = (int) (Math.random()*7);
 		String name  = Files[rand_value]; 
         loader.setLocation(getClass().getResource(name));
         loader.load();
