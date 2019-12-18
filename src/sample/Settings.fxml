@@ -50,7 +50,7 @@
         </AnchorPane>
       <ImageView fitHeight="200.0" fitWidth="200.0" layoutX="114.0" layoutY="498.0" pickOnBounds="true" preserveRatio="true" style="visibility: true;">
          <image>
-            <Image url="@Images/steering-wheel.png"/>
+            <Image url="@Images/steering-wheel.png" />
          </image>
       </ImageView>
     </children>

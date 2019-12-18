@@ -9,11 +9,13 @@ import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.CheckBox;
 import javafx.scene.image.ImageView;
+import javafx.scene.transform.Rotate;
 import javafx.stage.Stage;
 
 import java.io.IOException;
 
 public class SettingsController {
+	
 
     @FXML
     private Button SettingsButton;
@@ -54,5 +56,7 @@ public class SettingsController {
         ((Node)(actionEvent.getSource())).getScene().getWindow().hide();
 		
 	}
+	
+	
     
 }
