@@ -37,11 +37,11 @@ public class SettingsController {
         Parent root = load.getRoot();
         Stage stage = new Stage();
         stage.setScene(new Scene(root));
+        stage.setResizable(false);
         stage.show();
         ((Node)(actionEvent.getSource())).getScene().getWindow().hide();
 		
 	}
-
 	public void onClickMethodMenu(ActionEvent actionEvent) throws IOException {
         FXMLLoader load = new FXMLLoader();
         load.setLocation(getClass().getResource("/sample/Menu.fxml"));
@@ -49,6 +49,7 @@ public class SettingsController {
         Parent root = load.getRoot();
         Stage stage = new Stage();
         stage.setScene(new Scene(root));
+        stage.setResizable(false);
         stage.show();
         ((Node)(actionEvent.getSource())).getScene().getWindow().hide();
 		

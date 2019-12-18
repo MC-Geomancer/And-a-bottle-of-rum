@@ -42,16 +42,16 @@
                <children>
                   <ImageView fx:id="Image" fitHeight="250.0" fitWidth="250.0" layoutX="43.0" layoutY="77.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@Images/kraken.png" />
+                        <Image url="@Images/wine.png" />
                      </image></ImageView>
-                  <Text layoutX="99.0" layoutY="48.0" strokeType="OUTSIDE" strokeWidth="0.0" text="The Kraken" textAlignment="CENTER" wrappingWidth="138.0">
+                  <Text layoutX="75.0" layoutY="44.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Need some bing" textAlignment="CENTER" wrappingWidth="186.0">
                      <font>
                         <Font name="American Typewriter" size="24.0" />
                      </font>
                   </Text>
-                  <Text layoutX="38.0" layoutY="369.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Out crew collided with Kraken" textAlignment="CENTER">
+                  <Text layoutX="60.0" layoutY="370.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Go sail to the Tortuga?" textAlignment="CENTER">
                      <font>
-                        <Font name="American Typewriter" size="18.0" />
+                        <Font name="American Typewriter" size="20.0" />
                      </font>
                   </Text>
                </children>

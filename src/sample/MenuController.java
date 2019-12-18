@@ -8,6 +8,7 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.input.MouseDragEvent;
+import javafx.stage.Modality;
 import javafx.stage.Stage;
 import java.util.EventObject;
 
@@ -48,23 +49,39 @@ public class MenuController {
     }*/
     
    public void onClickMethodSettings(ActionEvent actionEvent) throws IOException {
-		FXMLLoader loader = new FXMLLoader();
+	    //one more way
+	    //Close current
+	    Stage stage = (Stage) SettingsButton.getScene().getWindow();
+	    // do what you have to do
+	    stage.close();
+	    FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/sample/Settings.fxml"));
+	    Parent root1 = (Parent) fxmlLoader.load();
+	    stage = new Stage();
+	    stage.initModality(Modality.APPLICATION_MODAL);
+	    stage.setScene(new Scene(root1));
+	    stage.setResizable(false);
+	    stage.show();
+	    
+	    
+	   /*FXMLLoader loader = new FXMLLoader();
         loader.setLocation(getClass().getResource("/sample/Settings.fxml"));
         loader.load();
         Parent root = loader.getRoot();
         Stage stage = new Stage();
         stage.setScene(new Scene(root));
         stage.show();
-        ((Node)(actionEvent.getSource())).getScene().getWindow().hide();
+        ((Node)(actionEvent.getSource())).getScene().getWindow().hide();*/
      
 	}
     public void onClickMethodPlay(ActionEvent actionEvent) throws IOException {
+    	
     	FXMLLoader loader = new FXMLLoader();
         loader.setLocation(getClass().getResource("/sample/Play.fxml"));
         loader.load();
         Parent root = loader.getRoot();
         Stage stage = new Stage();
         stage.setScene(new Scene(root));
+        stage.setResizable(false);
         stage.show();
         ((Node)(actionEvent.getSource())).getScene().getWindow().hide();
 	
