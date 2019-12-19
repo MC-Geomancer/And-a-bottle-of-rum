@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="737.0" prefWidth="426.0" style="-fx-background-color: linear-gradient(to bottom, #434d75, #717dad); -fx-border-color: #000000;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.PlayController">
+    <children>
+        <AnchorPane layoutX="20.0" prefHeight="86.0" prefWidth="386.0" style="-fx-background-color: #85bbe0; -fx-background-radius: 10;" AnchorPane.topAnchor="0.0">
+            <children>
+                <Button fx:id="SettingsButton" layoutX="262.0" mnemonicParsing="false" onAction="#onClickMethodSettings" prefHeight="67.0" prefWidth="110.0" style="-fx-background-color: #e48821; -fx-border-color: #000000;" text="Settings" textAlignment="CENTER">
+                    <font>
+                        <Font name="American Typewriter Semibold" size="20.0" />
+                    </font>
+                </Button>
+                <Button fx:id="PlayButton" layoutX="138.0" mnemonicParsing="false" onAction="#onClickMethodPlay" prefHeight="67.0" prefWidth="110.0" style="-fx-background-color: #e48821; -fx-border-color: #000000;" text="Play">
+                    <font>
+                        <Font name="American Typewriter" size="20.0" />
+                    </font>
+                </Button>
+                <Button fx:id="MenuButton" layoutX="14.0" mnemonicParsing="false" onAction="#onClickMethodMenu" prefHeight="67.0" prefWidth="110.0" style="-fx-background-color: #e48821; -fx-border-color: #000000;" text="Menu">
+                    <font>
+                        <Font name="American Typewriter" size="20.0" />
+                    </font>
+                </Button>
+            </children>
+        </AnchorPane>
+        <AnchorPane layoutX="20.0" layoutY="116.0" prefHeight="273.0" prefWidth="386.0" style="-fx-background-color: #85bbe0; -fx-background-radius: 10;">
+         <children>
+            <Text layoutX="94.0" layoutY="220.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Game over!" textAlignment="CENTER">
+               <font>
+                  <Font name="American Typewriter" size="36.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="120.0" fitWidth="120.0" layoutX="129.0" layoutY="37.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Images/bomb.png" />
+               </image>
+            </ImageView>
+         </children>
+        </AnchorPane>
+      <ImageView fitHeight="338.0" fitWidth="346.0" layoutX="44.0" layoutY="397.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Images/sea-waves.png" />
+         </image>
+      </ImageView>
+    </children>
+</AnchorPane>

@@ -24,29 +24,6 @@ public class MenuController {
 
     @FXML
     private Button MenuButton;
-
-
-
-   /*@FXML
-    void initialize()
-    {
-        SettingsButton.setOnAction(event->
-        {
-           SettingsButton.getScene().getWindow().hide();
-            FXMLLoader loader = new FXMLLoader();
-            loader.setLocation(getClass().getResource("/sample/Settings.fxml"));
-            try {
-                loader.load();
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
-            Parent root = loader.getRoot();
-            Stage stage = new Stage();
-            stage.setScene(new Scene(root));
-            stage.showAndWait();
-
-        });
-    }*/
     
    public void onClickMethodSettings(ActionEvent actionEvent) throws IOException {
 	    //one more way
@@ -61,16 +38,6 @@ public class MenuController {
 	    stage.setScene(new Scene(root1));
 	    stage.setResizable(false);
 	    stage.show();
-	    
-	    
-	   /*FXMLLoader loader = new FXMLLoader();
-        loader.setLocation(getClass().getResource("/sample/Settings.fxml"));
-        loader.load();
-        Parent root = loader.getRoot();
-        Stage stage = new Stage();
-        stage.setScene(new Scene(root));
-        stage.show();
-        ((Node)(actionEvent.getSource())).getScene().getWindow().hide();*/
      
 	}
     public void onClickMethodPlay(ActionEvent actionEvent) throws IOException {
